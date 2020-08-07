@@ -1,0 +1,48 @@
+.footer__link {
+    display: inline;
+    margin: 0 18px 0 0;
+
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--color-content1);
+
+
+}
+
+.footer__link:last-of-type {
+
+    margin-right: 0;
+}
+
+
+.footer__link :link {
+
+    color: var(--color-content1);
+    text-decoration: none;
+}
+
+.footer__link :visited {
+    text-decoration: none;
+    color: var(--color-content1);
+}
+
+.footer__link :hover {
+    opacity: .8;
+    transition: opacity 0.8s linear;
+}
+
+
+@media screen and (max-width: 500px) {
+    .footer__link {
+        display: block;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 32px 0;
+    }
+
+    .footer__link:last-of-type {
+        margin-bottom: 48px;
+    }
+
+
+}

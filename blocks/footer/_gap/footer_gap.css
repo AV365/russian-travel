@@ -1,0 +1,17 @@
+.footer_gap {
+    margin: 92px auto 24px auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer_gap {
+        margin: 88px auto 24px auto;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .footer_gap {
+        margin: 64px auto 24px auto;
+    }
+}

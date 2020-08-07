@@ -1,0 +1,13 @@
+.lang-nav__item {
+    display: inline;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--color-content1);
+    margin-right: 18px;
+
+}
+
+.lang-nav__item:last-of-type {
+    margin-right: 0;
+}
+

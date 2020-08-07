@@ -1,0 +1,30 @@
+.cover {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    width: calc(100% - 48px - 48px);
+
+
+    padding-top: calc((62.5%) / 2);
+    padding-bottom: calc((62.5%) / 2);
+
+    background-image: url("../../images/cover-trains-true.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+

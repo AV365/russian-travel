@@ -1,0 +1,18 @@
+.lang-nav__item_link {
+}
+
+.lang-nav__item_link :link {
+    text-decoration: none;
+    color: var(--color-content1);
+}
+
+.lang-nav__item_link :visited {
+    color: var(--color-content1);
+    text-decoration: none;
+}
+
+.lang-nav__item_link :hover {
+    opacity: .8;
+    transition: opacity .8s linear;
+}
+

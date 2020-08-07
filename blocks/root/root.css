@@ -1,0 +1,13 @@
+.root {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+
+
+    --color-content1: #fff;
+    --color-content2: #aaa;
+    --color-bg1: #2A2C2F;
+
+
+    background-color: var(--color-bg1);
+}
