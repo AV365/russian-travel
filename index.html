@@ -9,13 +9,12 @@
 <body class="root">
 <div class="page">
     <header class="header">
-        <div class="header__logo"></div>
-        <nav>
-            <ul class="lang-nav">
-                <li class="lang-nav__item lang-nav__item_active">Ru</li>
-                <li class="lang-nav__item lang-nav__item_link"><a href="#">En</a></li>
-            </ul>
-        </nav>
+        <img class="header__logo" src="./images/header-logo.svg"
+             alt="Логотип проекта в виде иконки формы страны и надписи РОССИЯ">
+        <ul class="lang-nav">
+            <li class="lang-nav__item lang-nav__item_active"><a href="#">Ru</a></li>
+            <li class="lang-nav__item"><a href="#">En</a></li>
+        </ul>
     </header>
     <main>
         <section class="lead">
@@ -28,7 +27,7 @@
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
         <section class="intro">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
                 провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
                 вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все
@@ -77,10 +76,10 @@
         <section>
             <ul class="places">
                 <li class="places__place">
-                    <h2 class="places__title">Куршская коса</h2>
+                    <h2 class="places__title">Куршская коса&nbsp;&nbsp;&nbsp;</h2>
                     <div class="places__website">
                         <p class="places__url-heading">URL</p>
-                        <p class="places__link"><a href="http://park-kosa.ru">park-kosa.ru</a></p>
+                        <a class="places__link" href="http://park-kosa.ru">park-kosa.ru</a>
                     </div>
                     <img class="places__image" src="images/place-kosa.jpg"
                          alt="Прозрачное дно Балтийского море под облаками на Куршской косе">
@@ -101,9 +100,8 @@
                     <h2 class="places__title">Кольский</h2>
                     <div class="places__website">
                         <p class="places__url-heading">URL</p>
-                        <p class="places__link"><a
-                                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
-                            Geographic</a></p>
+                        <a class="places__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+                            Geographic</a>
                     </div>
                     <img class="places__image" src="images/place-kolsky.jpg"
                          alt="Фотография берега Северного ледовитого океана на Кольском полуострове">
@@ -123,8 +121,7 @@
                     <h2 class="places__title">Алтай</h2>
                     <div class="places__website">
                         <p class="places__url-heading">URL</p>
-                        <p class="places__link"><a
-                                href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a></p>
+                        <a class="places__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                     </div>
                     <img class="places__image" src="images/place-altai.jpg"
                          alt="Фотография зелени летних алтайских лесов просматриваемая с веранды на перилах которой стоит макбук">
@@ -144,8 +141,7 @@
                     <h2 class="places__title">Зимний Байкал</h2>
                     <div class="places__website">
                         <p class="places__url-heading">URL</p>
-                        <p class="places__link"><a
-                                href="https://vk.com/baikalmile">https://vk.com/baikalmile</a></p>
+                        <a class="places__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                     </div>
                     <img class="places__image" src="images/place-winter-baikal.jpg"
                          alt="Текстура замерзшего льда Байкала">
@@ -163,8 +159,7 @@
                     <h2 class="places__title">Карелия</h2>
                     <div class="places__website">
                         <p class="places__url-heading">URL</p>
-                        <p class="places__link"><a
-                                href="http://vodlozero.ru">http://vodlozero.ru/</a></p>
+                        <a class="places__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
                     </div>
                     <img class="places__image" src="images/place-karelia.jpg"
                          alt="Леса Карелии отражаются в гладкой воде озера">
@@ -180,26 +175,24 @@
                 </li>
             </ul>
         </section>
+        <section>
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover">
 
-        <section class="cover">
-            <a href="#">
-                <div class="cover__overlay">
-                    <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до
-                        Байкала на электричках.</p>
-                </div>
+                <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до
+                    Байкала на электричках.</p>
+
             </a>
-
         </section>
     </main>
-    <footer class="footer footer_gap">
+    <footer class="footer">
         <nav>
             <ul class="footer__links">
-                <li class="footer__link"><a href="#">Карты</a></li>
-                <li class="footer__link"><a href="#">Погода</a></li>
-                <li class="footer__link"><a href="#">Расписание</a></li>
-                <li class="footer__link"><a href="#">Календарь</a></li>
-                <li class="footer__link"><a href="#">Путешествия</a></li>
+                <li class="footer__link"><a href="https://yandex.ru/maps">Карты</a></li>
+                <li class="footer__link"><a href="https://yandex.ru/pogoda">Погода</a></li>
+                <li class="footer__link"><a href="https://rasp.yandex.ru">Расписание</a></li>
+                <li class="footer__link"><a href="https://calendar.yandex.ru">Календарь</a></li>
+                <li class="footer__link"><a href="https://travel.yandex.ru">Путешествия</a></li>
             </ul>
         </nav>
         <p class="footer__copyright">&copy; 2020. AV365</p>

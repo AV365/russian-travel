@@ -9,8 +9,26 @@
     line-height: 18px;
 }
 
+.intro__list {
+    padding: 0;
+    margin: 32px 0 92px 0;
+    list-style: none;
+
+    color: var(--color-content1);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+}
+
 @media screen and (max-width: 768px) {
     .intro__list {
         margin-bottom: 88px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .intro__list {
+        margin-bottom: 64px;
+    }
+}
+

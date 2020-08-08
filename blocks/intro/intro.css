@@ -13,3 +13,11 @@
 
     }
 }
+
+@media screen and (max-width: 500px) {
+    .intro {
+
+        width: calc(100% - 16px - 16px);
+
+    }
+}

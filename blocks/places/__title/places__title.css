@@ -4,7 +4,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    word-wrap: break-word;
+
     color: var(--color-content1);
 
 }
@@ -22,5 +22,13 @@
     .places__title {
         margin: 0 16px 32px 16px;
 
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .places__title {
+        font-size: 32px;
+        line-height: 35px;
     }
 }
